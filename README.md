@@ -15,4 +15,4 @@ Java Script만을 이용한 간단하게 즐길 수 있는 Game
 - 점수가 올라가는데 방해요소들에 부딪혀서 게임이 끝날 때까지 점수를 측정(~ing)
 - 점수 랭킹 시스템(희망)
 
-![미니게임움짤](https://github.com/gitPrintln/game1/assets/117698468/2aee5331-c9ab-472d-ba46-63b2054cb63d)
+![졸라맨미니게임](https://github.com/gitPrintln/game1/assets/117698468/5ece486a-694d-4c1e-866b-3c157ff588af)
