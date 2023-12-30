@@ -3,7 +3,8 @@
 개인 프로젝트
 # 사용기술
 Java </br>
-HTML/CSS/Java Script
+Java Script </br>
+HTML/CSS
 # 일정
 2023.03
 # 특징
