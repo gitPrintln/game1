@@ -12,6 +12,9 @@ window.addEventListener('DOMContentLoaded', () => {
      //context.fillStyle = 'green';
      //context.fillRect(10, 10, 100, 100);
      
+     var img0 = new Image();
+     img0.src = 'images/졸라배경1.jpg';
+     
      var img1 = new Image();
      img1.src = 'images/zollaman.png';
      var zolla = { // 졸라맨
@@ -56,7 +59,9 @@ window.addEventListener('DOMContentLoaded', () => {
         timer++;
         
         context.clearRect(0,0, canvas.width, canvas.height);
-    
+        context.drawImage(img0, 0, 0, 600, 300);
+
+        
         if(timer % 120 === 0){
         var hurdle = new Hurdle(); // 장애물 생성
         hurdles.push(hurdle);
@@ -98,6 +103,7 @@ window.addEventListener('DOMContentLoaded', () => {
         var yCol = hurdle.y - (man.y + man.height);
         if(xCol < 0 && yCol < 0){
             context.clearRect(0,0, canvas.width, canvas.height);
+            context.drawImage(img0, 0, 0, 600, 300);
             cancelAnimationFrame(animation);
         }
     }
